@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Memo.Exchange
+  site: 'https://memo.exchange'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Memo.Exchange
+    template: 'Memo.Exchange'
+  description: "Memo.Exchange is a simple and fast instant cryptocurrency exchange service. You do not need to register, and your exchange will have no limits. We'll quickly convert more than 3000 coins for you without charging any additional or hidden fees."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Memo.Exchange
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
