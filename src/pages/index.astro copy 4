@@ -52,7 +52,10 @@ const metadata = {
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
     </Fragment>
   </CallToAction>
-   </Fragment>
+  
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Fast Crypto Exchange</span>
+      
+    </Fragment>
   </Hero>
 
   <!-- CallToAction Widget *********** -->
