@@ -101,8 +101,8 @@ export const headerData = {
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'MEMO Token',
-          href: getPermalink('tutorials', 'category'),
+          text: 'MEMEToken',
+          href: getPermalink('/meme/memo'),
         },
         {
           text: 'Tag Page',
