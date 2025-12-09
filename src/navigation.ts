@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Buy',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Support',
       links: [
         {
           text: 'Lead Generation',
@@ -86,22 +86,22 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Product',
       links: [
         {
-          text: 'Blog List',
-          href: getBlogPermalink(),
+          text: 'Stocks',
+          href: getPermalink('/stocks/markets'),
         },
         {
-          text: 'Article',
+          text: 'Wallets',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: 'DeFi',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'Category Page',
+          text: 'MEMO Token',
           href: getPermalink('tutorials', 'category'),
         },
         {
