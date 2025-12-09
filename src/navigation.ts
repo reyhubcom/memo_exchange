@@ -19,7 +19,7 @@ export const headerData = {
         },
         {
           text: 'All Cryptocurrency',
-          href: getPermalink('#'),
+          href: getPermalink('/all/cryptocurrency'),
         },
       ],
     },
