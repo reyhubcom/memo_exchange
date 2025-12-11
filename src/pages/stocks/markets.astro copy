@@ -45,14 +45,7 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="image">
-     <CallToAction>
-         
-    <Fragment slot="title">
-    
-    </Fragment>
-
-    <Fragment slot="subtitle">
-     <!-- TradingView Widget BEGIN -->
+      <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
@@ -182,7 +175,7 @@ const metadata = {
   </script>
 </div>
 <!-- TradingView Widget END -->
-    <!-- TradingView Widget BEGIN -->
+     <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
@@ -208,15 +201,15 @@ const metadata = {
       "title": "Stocks Markets",
       "symbols": [
         {
-          "s": "NASDAQ:NVDA",
-          "d": "",
-          "logoid": "nvidia",
-          "currency-logoid": "country/US"
-        },
-        {
           "s": "NASDAQ:TSLA",
           "d": "",
           "logoid": "tesla",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:NVDA",
+          "d": "",
+          "logoid": "nvidia",
           "currency-logoid": "country/US"
         },
         {
@@ -238,27 +231,15 @@ const metadata = {
           "currency-logoid": "country/US"
         },
         {
-          "s": "NASDAQ:NFLX",
-          "d": "",
-          "logoid": "netflix",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "NASDAQ:AMD",
-          "d": "",
-          "logoid": "advanced-micro-devices",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "NASDAQ:MSTR",
-          "d": "",
-          "logoid": "strategy-cad-hedged-cibc-cdr",
-          "currency-logoid": "country/US"
-        },
-        {
           "s": "NASDAQ:PLTR",
           "d": "",
           "logoid": "palantir",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:NFLX",
+          "d": "",
+          "logoid": "netflix",
           "currency-logoid": "country/US"
         },
         {
@@ -268,27 +249,9 @@ const metadata = {
           "currency-logoid": "country/US"
         },
         {
-          "s": "NASDAQ:GOOGL",
+          "s": "NASDAQ:AMD",
           "d": "",
-          "logoid": "alphabet",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "NASDAQ:HOOD",
-          "d": "",
-          "logoid": "robinhood",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "NASDAQ:COIN",
-          "d": "",
-          "logoid": "coinbase",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "NASDAQ:AVGO",
-          "d": "",
-          "logoid": "broadcom",
+          "logoid": "advanced-micro-devices",
           "currency-logoid": "country/US"
         },
         {
@@ -298,38 +261,115 @@ const metadata = {
           "currency-logoid": "country/US"
         },
         {
-          "s": "NYSE:BABA",
+          "s": "NASDAQ:GOOGL",
           "d": "",
-          "logoid": "alibaba",
+          "logoid": "alphabet",
           "currency-logoid": "country/US"
         },
         {
-          "s": "NASDAQ:OPEN",
+          "s": "NASDAQ:AVGO",
           "d": "",
-          "logoid": "opendoor",
+          "logoid": "broadcom",
           "currency-logoid": "country/US"
         },
         {
-          "s": "NSE:AXISBANK",
+          "s": "NASDAQ:COIN",
           "d": "",
-          "logoid": "axis-bank",
+          "logoid": "coinbase",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:HOOD",
+          "d": "",
+          "logoid": "robinhood",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:SOFI",
+          "d": "",
+          "logoid": "sofi",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:INTC",
+          "d": "",
+          "logoid": "intel",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "AMEX:BMNR",
+          "d": "",
+          "logoid": "bitmine-immersion-technologies",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:RKLB",
+          "d": "",
+          "logoid": "rocket-lab",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:MU",
+          "d": "",
+          "logoid": "micron-technology",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:IREN",
+          "d": "",
+          "logoid": "iris-energy",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NSE:RELIANCE",
+          "d": "",
+          "logoid": "reliance-industrial-infrastructure",
           "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NASDAQ:CRWV",
+          "d": "",
+          "logoid": "coreweave",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:ADBE",
+          "d": "",
+          "logoid": "adobe",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:BULL",
+          "d": "",
+          "logoid": "webull",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NYSE:PATH",
+          "d": "",
+          "logoid": "uipath",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NYSE:CRCL",
+          "d": "",
+          "logoid": "circle-internet-group-inc",
+          "currency-logoid": "country/US"
         }
-      ]
+      ],
+      "originalTitle": "Indices"
     }
   ],
   "support_host": "https://www.tradingview.com",
   "backgroundColor": "#0f0f0f",
   "width": "100%",
-  "height": "600",
+  "height": "700",
   "showSymbolLogo": true,
   "showChart": true
 }
   </script>
 </div>
 <!-- TradingView Widget END -->
-    </Fragment>
-  </CallToAction>
   
       </style>
     </Fragment>
